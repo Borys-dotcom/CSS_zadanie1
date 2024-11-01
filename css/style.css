@@ -2,21 +2,28 @@ html{
     background-color: white;
 }
 
-body{
-    width: 500px;
-    height: 700px;
+form{
+    width: 700px;
     background-color: #213b50;
     padding: 12px;
+    color: whitesmoke;
 }
 
 label,
 p{
-    color: whitesmoke;
     line-height: 32px;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 0px;
     margin-top: 4px;
+}
+
+label[for="name"],
+label[for="lastname"],
+label[for="mail"],
+label[for="city"],
+label[for="phone"]{
+    display: block;
 }
 
 input[type="text"],
@@ -29,9 +36,9 @@ textarea{
     border: 0px;
     width: 50%;
     height: 30px;
-    color: whitesmoke;
     font-size: 16px;
     font-weight: 500;
+    color: whitesmoke;
 }
 
 select:focus,
@@ -43,7 +50,6 @@ input:focus{
 }
 
 select{
-    color: whitesmoke;
     margin-bottom: 0px;
 }
 
@@ -53,10 +59,10 @@ textarea{
 
 select{
     height: 30px;
+    color: whitesmoke;
 }
 
 input[type="submit"]{
-    color: white;
     text-transform: uppercase;
     font-weight: 600;
     background-color: #1ac056;
