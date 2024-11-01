@@ -33,7 +33,7 @@ select,
 textarea{
     margin-bottom: 6px;
     background-color: #2b4a64;
-    border: 0px;
+    border: 1px solid #213b50;
     width: 50%;
     height: 30px;
     font-size: 16px;
@@ -70,6 +70,7 @@ input[type="submit"]{
     width: 80px;
     height: 40px;
     margin: 12px;
+    cursor: pointer;
 }
 
 input[type="submit"]:hover{
